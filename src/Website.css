@@ -80,4 +80,56 @@
       align-items: center;
     }
   }
+
+  .header {
+    background: #1a1a1a;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .nav-left {
+    flex: 1;
+  }
+  
+  .site-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .site-title:hover {
+    color: #ccc;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  .github-icon {
+    display: flex;
+    align-items: center;
+  }
+  
   
