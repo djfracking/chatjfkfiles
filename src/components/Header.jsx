@@ -24,7 +24,6 @@ const Header = () => {
         {/* Right Section - Navigation & GitHub */}
         <div className="nav-right">
           <Link to="/" className="nav-link">Search</Link>
-          <Link to="/chat" className="nav-link">Chat</Link>
           <Link to="/archive" className="nav-link">Archives</Link>
           <Link to="/methods" className="nav-link">Methods</Link>
           <a 
@@ -33,7 +32,7 @@ const Header = () => {
             rel="noopener noreferrer" 
             className="nav-link github-icon"
           >
-            <FaGithub size={24} />
+            <FaGithub size={26} />
           </a>
         </div>
       </div>
