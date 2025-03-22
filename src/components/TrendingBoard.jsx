@@ -30,7 +30,6 @@ const TrendingBoard = () => {
 
   return (
     <div className="trending-board">
-      <h3>🔥 Trending Documents</h3>
       <ul>
         {trendingDocs.map((doc, index) => (
           <li key={doc.id}>

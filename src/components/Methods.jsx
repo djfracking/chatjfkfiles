@@ -2,18 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Website.css";
 
-const Methods = () => {
-  return (
-    <section className="methods-section">
-      <div className="methods-overlay">
-        <h2>Methods & LLM</h2>
-        <p>
-          We leverage advanced language models and data analysis techniques to curate and interpret historical records. Our process is transparent, rigorous, and continuously evolving.
-        </p>
-        <Link to="/methods" className="button-primary">Explore Our Methods</Link>
-      </div>
-    </section>
-  );
-};
+const Methods = () => (
+  <section className="methods-section">
+    <div className="methods-overlay">
+      <h2>Methods</h2>
+      <p>
+        We scanned over 68,000 records using Optical Character Recognition and built multiple indexes for intelligent search.
+      </p>
+      <Link to="/methods" className="button-primary">Explore Our Methods</Link>
+    </div>
+  </section>
+);
 
 export default Methods;

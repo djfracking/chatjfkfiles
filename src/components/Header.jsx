@@ -24,7 +24,7 @@ const Header = () => {
         {/* Right Section - Navigation & GitHub */}
         <div className="nav-right">
           <Link to="/" className="nav-link">Search</Link>
-          <Link to="/archive" className="nav-link">Archives</Link>
+          {/* <Link to="/archive" className="nav-link">Archives</Link> */}
           <Link to="/methods" className="nav-link">Methods</Link>
           <a 
             href="https://github.com/djfracking/chatjfkfiles" 
