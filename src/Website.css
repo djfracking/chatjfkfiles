@@ -34,13 +34,7 @@
     line-height: 1.6;
   }
   
-  /* Container for setting a max width and centering content */
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
-  }
+ 
   
   /* Header and Navigation */
   .header, .footer {
@@ -93,7 +87,8 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+   padding: 0 20px;
+   font-family: 'Selectric Mono',var(--font-family);
   }
   
   .nav-left {
@@ -130,6 +125,62 @@
   .github-icon {
     display: flex;
     align-items: center;
+    padding-bottom: 10px;
   }
   
+  .trending-board {
+    background: #111;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+  }
+  
+  .trending-board ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .trending-board li {
+    padding: 8px 0;
+    border-bottom: 1px solid #333;
+    font-size: 1rem;
+  }
+  
+  section {
+    text-align: center;
+    }
+
+  .methods-section {
+    background: url("./assets/jfkandjackie.png") no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .methods-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .button-primary {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background-color: #ff3c38;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button-primary:hover {
+    background-color: #ff6461;
+    transform: translateY(-2px);
+  }
   

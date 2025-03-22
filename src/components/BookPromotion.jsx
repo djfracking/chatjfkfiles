@@ -14,7 +14,7 @@ const BookPromotion = () => {
         </a>
       </div>
       <div className="book-image">
-        <img src="path/to/book-cover.jpg" alt="Book Cover" />
+        <img src="../assets/cover.jpg" alt="Book Cover" />
       </div>
     </div>
   );

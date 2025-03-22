@@ -17,35 +17,28 @@ const Home = ({ handleSearch }) => {
       </section>
 
       {/* Trending/Leaderboard Section */}
-      <section id="trending-section" className="container">
+      <section id="trending-section" >
         <h2>Trending Records</h2>
         <TrendingBoard />
       </section>
 
-      {/* Chat Section */}
-      <section id="chat-section" className="container">
-        <h2>Try Chat with JFK Files</h2>
+      {/* Chat Section
+      <section id="chat-section" >
         <Chat />
-      </section>
+      </section> */}
 
       {/* Methods Section */}
-      <section id="methods-section" className="container">
+      <section id="methods-section" >
         <Methods />
       </section>
 
       {/* MLK Section */}
-      <section id="mlk-section" className="container">
+      <section id="mlk-section" >
         <MLK />
       </section>
 
-      {/* Sponsors Section */}
-      <section id="sponsors-section" className="container">
-        <h2>Our Sponsors</h2>
-        <Sponsors />
-      </section>
-
       {/* Book Promotion Section */}
-      <section id="book-section" className="container">
+      <section id="book-section" >
         <BookPromotion />
       </section>
     </div>

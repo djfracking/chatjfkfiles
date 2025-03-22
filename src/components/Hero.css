@@ -2,7 +2,7 @@
 .hero {
   position: relative;
   height: 100vh;
-  background: url('../assets/john-f-kennedy-official-portrait.png') no-repeat center center;
+  background: url('../assets/jfkmosaic.png') no-repeat center center;
   background-size: cover;
 }
 
@@ -26,7 +26,7 @@
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 0.5rem;
-  font-family: 'Arial', sans-serif; /* clean and simple like Google */
+  font-family: 'Selectric Mono'; /* clean and simple like Google */
 }
 
 .hero-content p {
